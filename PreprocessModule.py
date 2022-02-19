@@ -2,8 +2,6 @@ import morfeusz2
 import re
 import string
 
-from nltk.corpus import stopwords
-
 def LowerCase(text: str) -> str:
     """Converts letters in given text to lowercase.
     Args:
