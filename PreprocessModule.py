@@ -85,7 +85,9 @@ def RemoveStopWords(text: str) -> str:
     wordList = text.split() 
     preprecessedWordList = []
 
-    stopWords = stopwords.words('polish')
+    f = open('stopwords.txt', 'r', encoding='utf-8')
+    stopWords = f.read().split('\n')
+    f.close()
     stopWords += ['rt']
 
     for word in wordList:
