@@ -43,7 +43,7 @@ nest-asyncio==1.5.4
 nltk==3.7
 numpy==1.22.2
 packaging==21.3
-pandas==1.4.1
+pandas==1.1.5
 parso==0.8.3
 pathspec==0.9.0
 pickleshare==0.7.5
@@ -55,7 +55,6 @@ pure-eval==0.2.2
 Pygments==2.11.2
 pyparsing==3.0.7
 python-dateutil==2.8.2
-pytz==2021.3
 pyzmq==22.3.0
 regex==2022.1.18
 requests==2.27.1
@@ -77,3 +76,4 @@ wcwidth==0.2.5
 Werkzeug==2.0.3
 wordcloud==1.8.1
 zipp==3.7.0
+gunicorn
